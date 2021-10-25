@@ -12,9 +12,7 @@ I have not found any models that use renewable energy consumption as an addition
 
 I would do this analysis with the additional scope of the considered business, ie. do a multivariate ML time series analysis to predict the business' growth, using renewable energy and our country's GDP as additional variables. The success of this project would be shown in validated predictions and comparison to the business' existing method of projecting growth values. Then do my analysis to forecast business growth in the unknown future. I would then tell the 'nontechnical' stakeholder the forecast, and inform them that they can use this information to decide where to increase business resources , eg. small company growth predicted --> increase marketing, large company growth predicted--> increase production.
 
-
-
-The move towards sustainability has potential to be more profitable than non-sustainable business models; during the transition to sustainable models and in the long term; certainly so in the super long-term. Mainly, by sustainable I mean environmental and social impacts. I posit that the majority of people, who are financially capable to, will be willing to pay a larger up-front cost for sustainably viable items and options when given the choice. Products can be marketed as such. Furthermore, as the global economy moves towards sustainability, return profiles could be positively impacted from actions that are taken now to move towards providing/marketing consumers sustainable options. This project is meaningful from a users perspective, ie. promotion of social/environmental responsibility (excellent for riding the wave post-covid), and from a business perspective, ie. profit driven.
+tinaphysics@gmailcom
 
 https://github.com/christinanelson/SustainabilityProfitCorrelation
 
@@ -25,8 +23,6 @@ https://www.kaggle.com/tunguz/environment-social-and-governance-data
 The following plots show exploratory results of a first look at the data.
 https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/CorrelationExploration_GDP_RenEnCons.pdf
 https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/USA_GDP_timeseries%2Bforecast.pdf
-
-
 
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit.png?raw=true)
