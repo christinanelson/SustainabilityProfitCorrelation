@@ -20,8 +20,8 @@ data used: ESGData.csv
 From: The World Bank's Data of sustainability themes
 https://www.kaggle.com/tunguz/environment-social-and-governance-data
 
-The following plots show exploratory results of a first look at the data.
-https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/CorrelationExploration_GDP_RenEnCons.pdf
+The following plots show exploratory results of a first look at the data.\n
+https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/CorrelationExploration_GDP_RenEnCons.pdf \n
 https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/USA_GDP_timeseries%2Bforecast.pdf
 
 
