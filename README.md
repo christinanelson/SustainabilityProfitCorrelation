@@ -1,6 +1,12 @@
 # SustainabilityProfitCorrelation
 
-Thesis: Our country's gross domesetic product (GDP) is a comprehensive account of our nation's economic status. Business' economic health is interwoven into this measure of GDP, thus accurate predictions of changes in GDP will help in strengthening business decisions and strategies. The increase in usage of renweable energy resources may be a way for a country to stabilize GDP growth to a desirable rate. This analysis explores correlations between GDP growth and renewable energy consumption. And I build a simple machine learnign model to pr
+Thesis: Our country's gross domesetic product (GDP) is a comprehensive account of our nation's economic status. Business' economic health is interwoven into this measure of GDP, thus accurate predictions of changes in GDP will help in strengthening business decisions and strategies. The increase in usage of renweable energy resources may be a way for a country to stabilize GDP growth to a desirable rate. This analysis explores correlations between GDP growth and renewable energy consumption. A simple univariate multilayer perceptron is built to forecast GDP growth. This provides the basis for building a new multivariate model that uses renewable energy consumption and GDP information to predict GDP growth. The Granger causality test will be applied.  
+
+
+
+
+
+
 
 and the use of renewable energy consumption as a potential driver of positive GDP growth. To investigate this, correlation plots are made for countries in different income categories. Also   
 
