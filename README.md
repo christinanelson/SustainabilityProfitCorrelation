@@ -13,3 +13,6 @@ https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/env
 https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/socialSustainProfit.pdf
 
 There is a very slight trend in positive correlation between annual GDP growth rate % and renewable energy consumption, and annual GDP growh rate % and the ratio of female to male labor in the workforce. There are a handful of outliers that show quite strong positive correlations. This hints that promotion and marketing of sustainable (environmental and social) actions may have a positive effect on GDP growth rate. More studies can surely be done to cross reference more data and infer market drivers. I would really love to be able to be part of the data incubator and watch this project flourish! :)
+
+
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit.png?raw=true)
