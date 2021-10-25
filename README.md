@@ -53,29 +53,39 @@ I use 47 years of data (1961-2008) for training, and the last 5 years (2009-2013
 
 The naive model calculates the median RMS of subset prior observations relative to the next one year GDP growth.
 
-
-From this model, there is a median of **2.446 RMSE (+/- 0.000)**. Note there is no error because there is no stochastic element. So, any model that give a lower error than 2.446 shows an improvement in predictive performance.
-
+From this model, there is a median of **2.446 RMSE (+/- 0.000)**. Note there is no error because there is no stochastic element. So, any model that gives a lower error than 2.446 shows an improvement in predictive performance.
 
 
-The MLP's prediction is shown in the folllowing box and whisker plot, which has a RMSE of **2.192 +/- 0.059**, which is an improvement compared to the naive model.
+The next model I built is a multilayer perceptron (MLP). MLPs are a good starting point because it is a relatively simple feed forward neural network. Again, we use time steps of one years here, but MLPs are additionally able to do time series forecasting by taking multiple lag observations and use them as features to make predictions. Here we will actually make a prediction of the unknown next year's annual GDP growth.
+
+A MLP from Keras library is used. We use 10 (increments of 1 year) lag observations, 500 nodes in the hidden layer, 100 epochs (times exposed to the whole training set), and 100 batches (amount of samples within an epoch having updated weights applied). The hidden layer uses a rectified linear activation function, and the output layer uses a linear activation function. Also, the standard mean squared error is used as a loss function and the 'Adam' flavour is used for training the network using stochastic gradient descent.
+
+
+The MLP's RMSE scores are shown in the folllowing box and whisker plot, which has a RMSE of **2.192 +/- 0.059**, which is an improvement compared to the naive model. The spread with a standard deviation of 0.059 could be reduced further by optimizing hyperparameters.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
 
-This is the values for GDP growth for the years 2014-2019. We compare our prediction above to GDP growth for 2014. (ie. about 2.5%)
+This is the values for GDP growth for the years 2014-2019. I plan to compare prediction above to GDP growth for 2014.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2014-2019_real.png?raw=true)
 
-The naive model is closer in accuracy to the actual value for GDP growth in 2014, but this could be that the MLP needs more optimization and training.
 
+The same analysis was repeated closer to the large delta in GDP growth from from 2009 to 2010.
 
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2009.png?raw=true)
+
+For our naive model we obtain a RMSE of about **2.975**. And when using MLP, we get a median RMSE of 2.086 +/- 0.060. Again, there is improvement in model's predictive performance when using MLP.
+
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2009_USA_GDP.png?raw=true)
 
 This is the values for GDP growth for the years 2010-2019. We compare our prediction above to GDP growth for 2010. (ie. about 2.55%)
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2010-2019_real.png?raw=true)
 
+
+The next step is to obtain prediction values for have kept 'blind'. I expect the performance to be consistent within the MLP's RMS error.
+
+The minimum final step for this project is to combine renewable energy consumption data with annual GDP data to perform a multivariate time series forecast using MLP. The goal is to determine whether renewable energy consumption of a country is an informative varible in GDP forecasts. The Granger causality test will be applied, which states if X (read: renewable energy consumption) causes Y (read: GDP growth), then the forecast of Y based on previous values of Y *and* the previous values of X should outperform the forecast of Y based on previous values of Y alone. The below figure is an overlay of annual GDP growth and renewable energy consumption data.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP+RenewableEnergyConsumption_timeseries_1961-2019.png?raw=true)
