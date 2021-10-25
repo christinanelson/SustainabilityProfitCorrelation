@@ -1,6 +1,6 @@
 # SustainabilityProfitCorrelation
 
-Thesis: Our country's gross domesetic product (GDP) is a comprehensive account of our nation's economic status. Business' economic health is interwoven into this measure of GDP, thus accurate predictions of changes in GDP will help in strengthening business decisions and strategies. The increase in usage of renweable energy resources may be a way for a country to stabilize GDP growth to a desirable rate. This analysis explores correlations between GDP growth and renewable energy consumption. A simple univariate multilayer perceptron is built to forecast GDP growth. This provides the basis for building a new multivariate model that uses renewable energy consumption and GDP information to predict GDP growth. The Granger causality test will be applied.  
+Thesis: Our country's gross domestic product (GDP) is a comprehensive account of our nation's economic status. Business' economic health is interwoven into this measure of GDP, thus accurate predictions of changes in GDP will help in strengthening business decisions and strategies. The increase in usage of renewable energy resources may be a way for a country to stabilize GDP growth to a desirable rate. This analysis explores correlations between GDP growth and renewable energy consumption. A simple univariate multilayer perceptron is built to forecast GDP growth. This provides the basis for building a new multivariate model that uses renewable energy consumption and GDP information to predict GDP growth. The Granger causality test will be applied.  
 
 Businesses are the end user for this project. It is very advantageous for a business to have a highly probable and accurate prediction of future GDP growth;  this information may greatly help to mitigate risk and improve profit. The problem of knowing correlations in GDP growth and having accurate predictions is an urgent and pervasive problem because it has direct association with business profits. Prove accurate predictions, and businesses would pay for this information.
 
@@ -37,10 +37,10 @@ There are no clear trends in the above plot. Perhaps there are categories of cou
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_lowMidIncome.png?raw=true)
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_uppMidIncome.png?raw=true)
 
-You can see that there are denser clusters of data points in higher region of renewable energy consumption, for low and lower middle income countries. Meaning these countries are able to perform relatively similar in GDP growth and renewable energy consumption. This insinuates that a more stable (ie. not spread-out) GDP growth could be achieved with larger uses of renewable energy consumption. When looking at the high income contry correlation plot, all values are spread-out and there is no correlation is observed. The upper middle income country correlation plot has the largest spread towards lowest GDP growth. Again, the plots hint at the effect that renewable energy consumption has on GDP growthy, ie. that it keeps the growth more stable in a tigher area.
+You can see that there are denser clusters of data points in higher region of renewable energy consumption, for low and lower middle income countries. Meaning these countries are able to perform relatively similar in GDP growth and renewable energy consumption. This insinuates that a more stable (ie. not spread-out) GDP growth could be achieved with larger uses of renewable energy consumption. When looking at the high income country correlation plot, all values are spread-out and there is no correlation is observed. The upper middle income country correlation plot has the largest spread towards lowest GDP growth. Again, the plots hint at the effect that renewable energy consumption has on GDP growth, ie. that it keeps the growth more stable in a tighter area.
 
 
-Next, I looked at the time series of annual % GDP growth for the USA from 1961 to 2013. I have data values for the time range 1961-2019, but I wanted to keep data from 2014-2019 'blinded', so that I could make a prediction using my model, and then compare it to the known result in order to guage accuracy and precision.
+Next, I looked at the time series of annual % GDP growth for the USA from 1961 to 2013. I have data values for the time range 1961-2019, but I wanted to keep data from 2014-2019 'blinded', so that I could make a prediction using my model, and then compare it to the known result in order to gauge accuracy and precision.
 
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2013.png?raw=true)
@@ -61,7 +61,7 @@ The next model I built is a multilayer perceptron (MLP). MLPs are a good startin
 A MLP from Keras library is used. We use 10 (increments of 1 year) lag observations, 500 nodes in the hidden layer, 100 epochs (times exposed to the whole training set), and 100 batches (amount of samples within an epoch having updated weights applied). The hidden layer uses a rectified linear activation function, and the output layer uses a linear activation function. Also, the standard mean squared error is used as a loss function and the 'Adam' flavour is used for training the network using stochastic gradient descent.
 
 
-The MLP's RMSE scores are shown in the folllowing box and whisker plot, which has a RMSE of **2.192 +/- 0.059**, which is an improvement compared to the naive model. The spread with a standard deviation of 0.059 could be reduced further by optimizing hyperparameters.
+The MLP's RMSE scores are shown in the following box and whisker plot, which has a RMSE of **2.192 +/- 0.059**, which is an improvement compared to the naive model. The spread with a standard deviation of 0.059 could be reduced further by optimizing hyperparameters.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
 
@@ -75,7 +75,7 @@ The same analysis was repeated closer to the large delta in GDP growth from from
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2009.png?raw=true)
 
-For our naive model we obtain a RMSE of about **2.975**. And when using MLP, we get a median RMSE of 2.086 +/- 0.060. Again, there is improvement in model's predictive performance when using MLP.
+For our naive model we obtain a RMSE of about **2.975**. And when using MLP, we get a median RMSE of **2.086 +/- 0.060**. Again, there is improvement in model's predictive performance when using MLP.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2009_USA_GDP.png?raw=true)
 
