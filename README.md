@@ -40,9 +40,20 @@ There are no clear trends in the above plot. Perhaps there are categories of cou
 You can see that there are denser clusters of data points in higher region of renewable energy consumption, for low and lower middle income countries. Meaning these countries are able to perform relatively similar in GDP growth and renewable energy consumption. This insinuates that a more stable (ie. not spread-out) GDP growth could be achieved with larger uses of renewable energy consumption. When looking at the high income contry correlation plot, all values are spread-out and there is no correlation is observed. The upper middle income country correlation plot has the largest spread towards lowest GDP growth. Again, the plots hint at the effect that renewable energy consumption has on GDP growthy, ie. that it keeps the growth more stable in a tigher area.
 
 
+Next, I looked at the time series of annual % GDP growth for the USA from 1961 to 2013. I have data values for the time range 1961-2019, but I wanted to keep data from 2014-2019 'blinded', so that I could make a prediction using my model, and then compare it to the known result in order to guage accuracy and precision.
+
+
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2013.png?raw=true)
+
+Then, I built two simple models to train and validate on data from 1961-2013 and predict GDP growth for 2014.
+
+
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
+
+This is the values for GDP growth for the years 2014-2019. We compare our prediction above to GDP growth for 2014. (ie. )
+
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2014-2019_real.png?raw=true)
+
 
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2009.png?raw=true)
