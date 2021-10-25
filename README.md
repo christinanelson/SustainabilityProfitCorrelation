@@ -26,13 +26,18 @@ https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Cor
 
 https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/USA_GDP_timeseries%2Bforecast.pdf
 
+First, I explored if there were correlations between annual % GDP growth and renewable energy consumption (% of total final energy consumption) for every country that data was available for.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit.png?raw=true)
+
+There are no clear trends in the above plot. Perhaps there are categories of countries that have specific trends while others do not. To investigate this, I broke up the data for the country into income categories provided by the United Nations. The following four plots show the correlations between GDP and renewable energy consumption for the categories: high income, low income, lower middle income, and upper middle income.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_highIncome.png?raw=true)
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_lowIncome.png?raw=true)
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_lowMidIncome.png?raw=true)
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_uppMidIncome.png?raw=true)
+
+You can see that there are denser clusters of data points in higher region of renewable energy consumption, for low and lower middle income countries. Meaning these countries are able to perform relatively similar in GDP growth and renewable energy consumption. This insinuates that a more stable (ie. not spread-out) GDP growth could be achieved with larger uses of renewable energy consumption. When looking at the high income contry correlation plot, all values are spread-out and there is no correlation is observed. The upper middle income country correlation plot has the largest spread towards lowest GDP growth. Again, the plots hint at the effect that renewable energy consumption has on GDP growthy, ie. that it keeps the growth more stable in a tigher area.
 
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2013.png?raw=true)
