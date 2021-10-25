@@ -54,11 +54,11 @@ I use 47 years of data (1961-2008) for training, and the last 5 years (2009-2013
 The naive model calculates the median RMS of subset prior observations relative to the next one year GDP growth.
 
 
-From this model, there is a median of *2.446 RMSE (+/- 0.000)*. Note there is no error because there is no stochastic element. So, any model that give a lower error than 2.446 shows an improvement in predictive performance.
+From this model, there is a median of **2.446 RMSE (+/- 0.000)**. Note there is no error because there is no stochastic element. So, any model that give a lower error than 2.446 shows an improvement in predictive performance.
 
 
 
-The MLP's prediction is shown in the folllowing box and whisker plot, which has a RMSE of *2.192 +/- 0.059*, which is an improvement compared to the naive model.
+The MLP's prediction is shown in the folllowing box and whisker plot, which has a RMSE of **2.192 +/- 0.059**, which is an improvement compared to the naive model.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
 
