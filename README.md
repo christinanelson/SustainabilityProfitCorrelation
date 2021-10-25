@@ -16,3 +16,19 @@ There is a very slight trend in positive correlation between annual GDP growth r
 
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit.png?raw=true)
+
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_highIncome.png?raw=true)
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_lowIncome.png?raw=true)
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_lowMidIncome.png?raw=true)
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/environSustainProfit_uppMidIncome.png?raw=true)
+
+
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2013.png?raw=true)
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2014-2019_real.png?raw=true)
+
+
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2009.png?raw=true)
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2009_USA_GDP.png?raw=true)
+![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2010-2019_real.png?raw=true)
+
