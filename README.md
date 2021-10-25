@@ -47,9 +47,16 @@ Next, I looked at the time series of annual % GDP growth for the USA from 1961 t
 
 Then, I built two simple models to train and validate on data from 1961-2013 and predict GDP growth for 2014.
 
-The first model predicts the next year's GDP growth to be 2.446 RMSE (+/- 0.000).
+The first model I call the naive or dummy model, because it just does supervised learning via walk-forward-validtion with no stochastic element.
 
-While the MLP's prediction is shown in the folllowing box and whisker plot, which predicts a GDP growth value of 2.192 with a root mean square error (RMSE) of +/- 0.059.
+I use 47 years of data (1961-2008) for training, and the last 5 years (2009-2013) for the test set. The naive model shifting the data set in 1 year increments back and forward in time for up to 10 years. 
+
+The naive model calculates the median RMS of subset prior observations relative to the next one year GDP growth. From this model, there is a median of 2.446 RMSE (+/- 0.000). Note there is no error because there is no stochastic element. So, any model that give a lower error than 2.446 shows an improvement in predictive performance.
+
+
+
+
+The MLP's prediction is shown in the folllowing box and whisker plot, which has a RMSE of 2.192 +/- 0.059, which is an improvement compared to the naive model.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
 
