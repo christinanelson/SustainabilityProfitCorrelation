@@ -47,17 +47,25 @@ Next, I looked at the time series of annual % GDP growth for the USA from 1961 t
 
 Then, I built two simple models to train and validate on data from 1961-2013 and predict GDP growth for 2014.
 
+The first model predicts the next year's GDP growth to be 2.446 RMSE (+/- 0.000).
+
+While the MLP's prediction is shown in the folllowing box and whisker plot, which predicts a GDP growth value of 2.192 with a root mean square error (RMSE) of +/- 0.059.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
 
-This is the values for GDP growth for the years 2014-2019. We compare our prediction above to GDP growth for 2014. (ie. )
+This is the values for GDP growth for the years 2014-2019. We compare our prediction above to GDP growth for 2014. (ie. about 2.5%)
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2014-2019_real.png?raw=true)
+
+The naive model is closer in accuracy to the actual value for GDP growth in 2014, but this could be that the MLP needs more optimization and training.
 
 
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2009.png?raw=true)
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2009_USA_GDP.png?raw=true)
+
+This is the values for GDP growth for the years 2010-2019. We compare our prediction above to GDP growth for 2010. (ie. about 2.5%)
+
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2010-2019_real.png?raw=true)
 
 
