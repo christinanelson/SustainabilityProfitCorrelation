@@ -84,7 +84,7 @@ This is the values for GDP growth for the years 2010-2019. I plan to compare our
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2010-2019_real.png?raw=true)
 
 
-The next step is to obtain prediction values for have kept 'blind'. I expect the performance to be consistent within the MLP's RMS error.
+The next step is to obtain prediction values for what I have kept 'blind', and assess accuracy and precision. I expect the performance to be consistent within the MLP's RMS error.
 
 The minimum final step for this project is to combine renewable energy consumption data with annual GDP data to perform a multivariate time series forecast using MLP. The goal is to determine whether renewable energy consumption of a country is an informative variable in GDP forecasts. The Granger causality test will be applied, which states if X (read: renewable energy consumption) causes Y (read: GDP growth), then the forecast of Y based on previous values of Y *and* the previous values of X should outperform the forecast of Y based on previous values of Y alone. The below figure is an overlay of annual GDP growth and renewable energy consumption data.
 
