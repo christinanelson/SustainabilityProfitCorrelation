@@ -61,7 +61,7 @@ The next model I built is a multilayer perceptron (MLP). MLPs are a good startin
 A MLP from Keras library is used. We use 10 (increments of 1 year) lag observations, 500 nodes in the hidden layer, 100 epochs (times exposed to the whole training set), and 100 batches (amount of samples within an epoch having updated weights applied). The hidden layer uses a rectified linear activation function, and the output layer uses a linear activation function. Also, the standard mean squared error is used as a loss function and the 'Adam' flavour is used for training the network using stochastic gradient descent.
 
 
-The MLP's RMSE scores are shown in the following box and whisker plot, which has a RMSE of **2.192 +/- 0.059**, which is an improvement compared to the naive model. The spread with a standard deviation of 0.059 could be reduced further by optimizing hyperparameters.
+The MLP's RMSE scores are shown in the following box and whisker plot, which has a RMSE of **2.174 +/- 0.050**, which is an improvement compared to the naive model. The spread with a standard deviation of 0.059 could be reduced further by optimizing hyperparameters.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
 
@@ -75,7 +75,7 @@ The same analysis was repeated closer to the large delta in GDP growth from from
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2009.png?raw=true)
 
-For our naive model we obtain a RMSE of about **2.975**. And when using MLP, we get a median RMSE of **2.086 +/- 0.060**. Again, there is improvement in model's predictive performance when using MLP.
+For our naive model we obtain a RMSE of about **2.975**. And when using MLP, we get a median RMSE of **2.066 +/- 0.069**. Again, there is improvement in model's predictive performance when using MLP.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2009_USA_GDP.png?raw=true)
 
