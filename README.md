@@ -61,7 +61,7 @@ The next model I built is a multilayer perceptron (MLP). MLPs are a good startin
 A MLP from Keras library is used. We use 10 (increments of 1 year) lag observations, 500 nodes in the hidden layer, 100 epochs (times exposed to the whole training set), and 100 batches (amount of samples within an epoch having updated weights applied). The hidden layer uses a rectified linear activation function, and the output layer uses a linear activation function. Also, the standard mean squared error is used as a loss function and the 'Adam' flavour is used for training the network using stochastic gradient descent.
 
 
-The MLP's RMSE scores are shown in the following box and whisker plot, which has a RMSE of **2.204 +/- 0.068**, which is an improvement compared to the naive model. The spread with a standard deviation of 0.059 could be reduced further by optimizing hyperparameters.
+The MLP's RMSE scores are shown in the following box and whisker plot, which has a RMSE of **2.204 +/- 0.068**, which is an improvement compared to the naive model. The spread with a standard deviation of 0.068 could be reduced further by optimizing hyperparameters.
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2013_USA_GDP.png?raw=true)
 
