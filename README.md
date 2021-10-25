@@ -1,6 +1,14 @@
 # SustainabilityProfitCorrelation
 
-Thesis: The move towards sustainability has potential to be more profitable than non-sustainable business models; during the transition to sustainable models and in the long term; certainly so in the super long-term. Mainly, by sustainable I mean environmental and social impacts. I posit that the majority of people, who are financially capable to, will be willing to pay a larger up-front cost for sustainably viable items and options when given the choice. Products can be marketed as such. Furthermore, as the global economy moves towards sustainability, return profiles could be positively impacted from actions that are taken now to move towards providing/marketing consumers sustainable options. This project is meaningful from a users perspective, ie. promotion of social/environmental responsibility (excellent for riding the wave post-covid), and from a business perspective, ie. profit driven.
+Thesis: Our country's gross domesetic product (GDP) is a comprehensive account of our nation's economic status. Business' economic health is interwoven into this measure of GDP, thus accurate predictions of changes in GDP will help in strengthening business decisions and strategies. The increase in usage of renweable energy resources may be a way for a country to stabilize GDP growth to a desirable rate. This analysis explores correlations between GDP growth and renewable energy consumption. And I build a simple machine learnign model to pr
+
+and the use of renewable energy consumption as a potential driver of positive GDP growth. To investigate this, correlation plots are made for countries in different income categories. Also   
+
+
+
+
+
+The move towards sustainability has potential to be more profitable than non-sustainable business models; during the transition to sustainable models and in the long term; certainly so in the super long-term. Mainly, by sustainable I mean environmental and social impacts. I posit that the majority of people, who are financially capable to, will be willing to pay a larger up-front cost for sustainably viable items and options when given the choice. Products can be marketed as such. Furthermore, as the global economy moves towards sustainability, return profiles could be positively impacted from actions that are taken now to move towards providing/marketing consumers sustainable options. This project is meaningful from a users perspective, ie. promotion of social/environmental responsibility (excellent for riding the wave post-covid), and from a business perspective, ie. profit driven.
 
 https://github.com/christinanelson/SustainabilityProfitCorrelation
 
