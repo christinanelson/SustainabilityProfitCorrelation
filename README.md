@@ -64,7 +64,7 @@ The naive model is closer in accuracy to the actual value for GDP growth in 2014
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_timeseries_1961-2009.png?raw=true)
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/boxplot-forecast-2009_USA_GDP.png?raw=true)
 
-This is the values for GDP growth for the years 2010-2019. We compare our prediction above to GDP growth for 2010. (ie. about 2.5%)
+This is the values for GDP growth for the years 2010-2019. We compare our prediction above to GDP growth for 2010. (ie. about 2.55%)
 
 ![alt text](https://github.com/christinanelson/SustainabilityProfitCorrelation/blob/main/Plots/USA_GDP_2010-2019_real.png?raw=true)
 
