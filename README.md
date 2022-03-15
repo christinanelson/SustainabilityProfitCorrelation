@@ -1,14 +1,14 @@
 # SustainabilityProfitCorrelation
 
-User: Governments, eg. local government economic recovery strategies
+# User: Governments, eg. local government economic recovery strategies
 
-Problem: Inform governments of actionable measures that can be taken to prevent decline in GDP growth rate for state or country. eg. mitigate potential downturns in economic health during market volatility, stabilize GDP growth rate post-covid recovery.
+# Problem: Inform governments of actionable measures that can be taken to prevent decline in GDP growth rate for state or country. eg. mitigate potential downturns in economic health during market volatility, stabilize GDP growth rate post-covid recovery.
 
-Solution: Show that increasing renewable energy consumption has actionable potential to mitigate a decline in GDP, ie. stabilize or foster growth.
+# Solution: Show that increasing renewable energy consumption has actionable potential to mitigate a decline in GDP, ie. stabilize or foster growth.
 
-Data: Currently from World Bank, --> need better data.
+# Data: Currently from World Bank, --> need better data.
 
-Final Deliverable: Interactive map of the United States with GDP growth forecasts using Renewable Energy Consumption as part of the prediction forecast.
+# Final Deliverable: Interactive map of the United States with GDP growth forecasts using Renewable Energy Consumption as part of the prediction forecast.
 
 
 
