@@ -1,6 +1,20 @@
 # SustainabilityProfitCorrelation
 
-Thesis: Our country's gross domestic product (GDP) is a comprehensive account of our nation's economic status. Business' economic health is interwoven into this measure of GDP, thus accurate predictions of changes in GDP will help in strengthening business decisions and strategies. The increase in usage of renewable energy resources may be a way for a country to stabilize GDP growth to a desirable rate. This analysis explores correlations between GDP growth and renewable energy consumption. A simple univariate multilayer perceptron is built to forecast GDP growth. This provides the basis for building a new multivariate model that uses renewable energy consumption and GDP information to predict GDP growth. The Granger causality test will be applied.  
+User: Governments, eg. local government economic recovery strategies
+
+Problem: Inform governments of actionable measures that can be taken to prevent decline in GDP growth rate for state or country. eg. mitigate potential downturns in economic health during market volatility, stabilize GDP growth rate post-covid recovery.
+
+Solution: Show that increasing renewable energy consumption has actionable potential to mitigate a decline in GDP, ie. stabilize or foster growth.
+
+Data: Currently from World Bank, --> need better data.
+
+Final Deliverable: Interactive map of the United States with GDP growth forecasts using Renewable Energy Consumption as part of the prediction forecast.
+
+
+
+
+
+Our country's gross domestic product (GDP) is a comprehensive account of our nation's economic status. Business' economic health is interwoven into this measure of GDP, thus accurate predictions of changes in GDP will help in strengthening business decisions and strategies. The increase in usage of renewable energy resources may be a way for a country to stabilize GDP growth to a desirable rate. This analysis explores correlations between GDP growth and renewable energy consumption. A simple univariate multilayer perceptron is built to forecast GDP growth. This provides the basis for building a new multivariate model that uses renewable energy consumption and GDP information to predict GDP growth. The Granger causality test will be applied.  
 
 Businesses are the end user for this project. It is very advantageous for a business to have a highly probable and accurate prediction of future GDP growth;  this information may greatly help to mitigate risk and improve profit. The problem of knowing correlations in GDP growth and having accurate predictions is an urgent and pervasive problem because it has direct association with business profits. Prove accurate predictions, and businesses would pay for this information.
 
